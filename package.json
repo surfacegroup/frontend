@@ -1,0 +1,57 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.5.4",
+    "bootstrap": "^4.3.1",
+    "braintree-web-drop-in-react": "^1.0.9",
+    "dotenv": "^8.0.0",
+    "google-maps-react": "^2.0.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "query-string": "^6.8.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-collapsible": "^2.6.0",
+    "react-dom": "^16.8.6",
+    "react-horizontal-scrolling-menu": "^0.7.0",
+    "react-magnifier": "^3.0.1",
+    "react-modal-image": "^2.4.0",
+    "react-moment": "^0.9.2",
+    "react-notifications": "^1.4.3",
+    "react-numeric-input": "^2.2.3",
+    "react-ratings-declarative": "^3.4.1",
+    "react-router-dom": "^5.0.1",
+    "react-router-hash-link": "^1.2.2",
+    "react-scripts": "3.0.1",
+    "react-sharingbuttons": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --watchAll",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-alice-carousel": "^1.15.2"
+  }
+}

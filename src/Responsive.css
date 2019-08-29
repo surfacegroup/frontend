@@ -1,0 +1,257 @@
+@media(min-width: 799px) {
+    #menu-bar {
+        display: none
+    }
+    .responsive-nav {
+        transform: translateX(-100%)
+    }
+    .nav-bottom {
+        -webkit-box-shadow: 0px 2px 4px #808080;
+       -moz-box-shadow: 0px 2px 4px #808080;
+            box-shadow: 0px 2px 4px #808080;
+    }
+    .backdrop {
+        width: 0;
+        height: 0;
+    }
+    .content {
+        padding-top: 155px;
+        
+    }
+    .banner6-home-left {
+    flex: 1.5;
+    background: url('https://surfacegroupint.com/wp-content/uploads/2019/03/simpolo-2032198_1920-1.jpg');
+    background-size: cover;
+    }
+    
+    
+    
+}
+
+/* @media (min-width: 1000px) {
+    .react-numeric-input input {
+        padding-left: 15ex !important;
+        padding-right: 15ex !important;
+    }
+    
+} */
+
+@media(max-width: 800px) {
+    .content {
+        padding-top: 103px;
+    }
+    /* .magnifying-glass {
+        display: none
+      } */
+    .contact-container3 {
+        flex-direction: column
+    }
+    
+    .nav-top-right {
+        display: none;
+    }
+    .nav-bottom {
+        display: none;
+    }
+    .nav-top {
+        -webkit-box-shadow: 0px 2px 4px #808080;
+        -moz-box-shadow: 0px 2px 4px #808080;
+             box-shadow: 0px 2px 4px #808080;
+             border: none;
+    }
+    .banner6-home {
+        flex-direction: column;
+        height: 500px;
+    }
+    .banner4-home-left {
+        background: url('https://surfacegroupint.com/wp-content/uploads/2019/08/MS_WONDERLAND_ELEMENT_INSTALL.jpg');
+        background-size: cover;
+        width: 100%;
+        flex: 3;
+    }
+    .banner4-home {
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+    }
+    .banner6-home-right {
+        height: 500px;
+    }
+    .banner6-home-left  {
+        background: url('https://surfacegroupint.com/wp-content/uploads/2019/03/simpolo-2032198_1920-1.jpg');
+        background-size: cover;
+        width: 100%;
+        flex: 3;
+    }
+    .filter-productgrid {
+        flex-direction: column
+    }
+    .filter {
+        flex-direction: row;
+        min-width: 100%
+    }
+    .filter-group {
+        margin: auto
+    }
+    .filter hr {
+        display: none;
+    }
+    .productgrid {
+        min-width: 100%;
+    }
+    .banner5-home-bottom {
+        display: block;
+    }
+    .card-container-shop div {
+        margin: auto
+    }
+    
+    
+}
+
+
+
+@media(max-width: 575px) {
+    .stock-status-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+   
+    
+}
+
+@media(min-width: 600px) {
+    .nav-logo-text .sg {
+        /* font-size: 20px !important; */
+        font-size: 3em;
+        color: #595A5D
+    }
+    
+    .nav-logo-text .i {
+        letter-spacing: 17px;
+        margin-top: -8px;
+        font-size: 25px;
+        color: #98999D;
+        margin-left: 1.7px;
+    }
+    .nav-logo-img img {
+        width: 61px
+    }
+}
+@media(min-width: 580px) {
+    .social-share-container {
+        padding-bottom: 50px
+    } 
+}
+@media(max-width: 581px) {
+    .social-share {
+        /* padding-bottom: 50px; */
+        /* margin-left: 10px; */
+        /* border: 2px solid orange; */
+        right: 0;
+        display: flex;
+        flex-direction: row-reverse
+       
+    } 
+    .social-share-container {
+        display: flex;
+        
+    }
+
+}
+
+
+@media(max-width: 601px) {
+    .nav-logo-text .sg {
+        font-size: 2em;
+        color: #595A5D
+    }
+    .nav-logo-text .i {
+        letter-spacing: 10px;
+        margin-top: -8px;
+        font-size: 19.7px;
+        color: #98999D;
+        margin-left: 1.7px;
+    }
+    .nav-logo-img img {
+        width: 45px
+    }
+    .content {
+        padding-top: 80px;
+    }
+    .form-container-inner {
+        flex-direction: column;
+    }
+    .footer-row1 {
+        flex-direction: column;
+    }
+    .footer-row1 div {
+        margin-bottom: 20px;
+    }
+    .footer-row1-col1 {
+        margin-top: 10px
+    }
+    #fcc-1 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 20px;
+    }
+    #fcc-1 input {
+        padding: 10px
+    }
+
+    #fcc-2{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 20px;
+    }
+    .login-page-cards {
+        flex-direction: column;
+        
+       
+    }
+    .login-page-cards div {
+        margin: auto;
+        margin-bottom: 50px
+        
+    }
+    
+
+}
+
+@media(max-width: 414px) {
+    .nav-logo {
+        margin-left: 10px
+    }
+    .nav-logo-text .sg {
+        /* font-size: 20px !important; */
+        font-size: 1.4em;
+        color: #595A5D
+    }
+    .nav-logo-text .i {
+        letter-spacing: 9px;
+        margin-top: 0px;
+        font-size: 11.5px;
+        color: #98999D;
+        /* margin-left: 1.7px; */
+    }
+    .banner6-home {
+        height: 900px;
+    }
+    .banner4-home {
+        height: 900px;
+    }
+    .nav-logo-img img {
+        width: 30px
+    }
+    
+    .dash-bottom {
+        flex-direction: column
+    }
+
+    .dash-bottom-left-top {
+        margin-top: 10px
+    }
+   
+}
