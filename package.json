@@ -8,7 +8,7 @@
     "braintree-web-drop-in-react": "^1.0.9",
     "dotenv": "^8.0.0",
     "google-maps-react": "^2.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "query-string": "^6.8.1",
     "react": "^16.8.6",
